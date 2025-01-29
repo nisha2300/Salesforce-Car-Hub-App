@@ -1,14 +1,14 @@
 # Car Hub App
 
 ## Description
-Car Hub App is a Salesforce-based application designed to manage car-related data efficiently. It allows users to store, retrieve, and analyze car details using Salesforce objects and relationships.
+Car Hub App is a Salesforce-based application designed for efficient car inventory management and exploration. The app opens to a Car Explorer Page where users can filter cars by name, price range, category, and make. Users can view detailed car descriptions and find similar vehicles.
 
 ## Features
-- Manage car inventory
-- Track sales and customer interactions
-- Analyze car-related data
-- User-friendly Salesforce interface
-
+- Car Explorer Page with advanced filtering options.
+- Custom Cars object storing vehicle details and descriptions.
+- Fetch and display similar cars based on selected vehicle attributes.
+- Lightning Web Components (LWC) for a dynamic and responsive UI.
+- Seamless integration with Salesforce for data management.
 ## Installation
 1. Clone the repository:
    ```bash
@@ -19,8 +19,9 @@ Car Hub App is a Salesforce-based application designed to manage car-related dat
 
 ## Usage
 1. Log in to your Salesforce environment.
-2. Navigate to the Car Hub App.
-3. Use the provided UI to add, update, or analyze car data.
+2. Open the Car Hub App and navigate to the Car Explorer Page.
+3. Apply filters to search for cars based on various criteria.
+4. Click on any car to view its details and find similar vehicles.
 
 ## Configuration
 - Ensure required objects and fields are created.
@@ -33,6 +34,5 @@ If you'd like to contribute:
 2. Create a feature branch.
 3. Submit a pull request.
 
-## Authors
+## Author
 - Nisha Dixit
-
